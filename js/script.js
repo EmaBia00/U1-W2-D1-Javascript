@@ -39,7 +39,8 @@ console.log(varNull + " - Es: " + nullExample);
 //UNDEFINED
 let varUndefined =
   "Dataype che rappresenta l’assenza di valore, risposta dal sistema, dopo l'esecuzione di una determinata azione non riconosciuta";
-console.log(varUndefined);
+let undefinedExample;
+console.log(varUndefined + " - Es: " + undefinedExample);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
