@@ -121,9 +121,9 @@ console.log(
 console.log(
   "EXTRA ESERCIZIO - 7: " +
     "Il confronto tra la parola '" +
-    name1 +
+    name1.toLowerCase() +
     "' e '" +
     name2.toLowerCase() +
     "' da come risultato: " +
-    (name1 === name2.toLowerCase()) //trasformo la parola John con lettere minuscole.
+    (name1.toLowerCase() === name2.toLowerCase()) //trasformo la parola John con lettere minuscole e le confornto per vedere se sono uguali.
 );
